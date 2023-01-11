@@ -54,7 +54,7 @@ To me it still looks like it's moving things around a bit, in this line:
 
 How can ten million memmoves not be any more expensive than just not doing them at all?
 
-Well, whatever the answer is saving, those memmoves doesn't save any time. pop() is no more expensive than not doing the pop() at all, so there are no savings to be had here.
+Well, whatever the answer is, removing those memmoves doesn't save any time. pop() is no more expensive than not doing the pop() at all, so there are no savings to be had here.
 It is pretty fast.
 
 
