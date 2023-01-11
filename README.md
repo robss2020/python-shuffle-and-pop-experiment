@@ -36,7 +36,8 @@ Not terribly bad for handling and shuffling a list of 10m items, but no speedup 
 
 My flatline in all its glory.  Notice the conspicuous lack of speedup!
 
-(markdown to image goes here)
+![ Comparison of pop()-ing versus tracking a headat pointer.](https://github.com/robss2020/python-shuffle-and-pop-experiment/blob/main/comparison.png "Flatline")
+
 
 ## Investigating how it does it
 
